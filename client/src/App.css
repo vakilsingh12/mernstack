@@ -1,0 +1,67 @@
+.form-control{
+    border:none;
+    box-shadow: none !important;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    background-color: transparent;
+    position: relative;
+    padding-left: 20px;
+}
+.form-control:hover,.form-control:active,.form-control:focus
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+    background-color: transparent;
+}
+
+.icons{
+ position: absolute;
+ top: 215px;
+ left: 330px;
+}
+.emailicon{
+    position: absolute;
+    top: 310px;
+    left: 329px;
+}
+.mobileicon{
+    position: absolute;
+    top: 405px;
+    left: 329px;
+}
+.passwordicon{
+    position: absolute;
+    top: 495px;
+    left: 329px;
+}
+.cpasswordicon{
+    position: absolute;
+    top: 590px;
+    left: 329px;
+}
+.form-control::placeholder {
+    padding-left: 10px;
+  }
+  .email{
+    position: absolute;
+    top: 305px;
+    left: 360px;
+  }
+  .password{
+    position: absolute;
+    top: 400px;
+    left: 360px;
+  }
+
+  .sendmsg{
+      margin:10px 90px;
+  }
+.imgError{
+ width: 100%;
+ height: 80vh;
+}
+.contactdiv{
+    box-shadow:-1px 1px 8px 1px rgb(94, 88, 88);
+    border-radius: 5px;
+}
